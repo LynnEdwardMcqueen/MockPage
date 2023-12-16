@@ -1,0 +1,466 @@
+div.lights:nth-child(1) {
+    position: fixed;
+    height: 6px;
+    width: 1px;
+    top:0px;
+    left:0px;
+    background-color: yellow;
+    animation-name: top-left-to-right;
+    animation-duration: 3.2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+
+
+div.lights:nth-child(2) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    right:0px;
+    top:0px;
+    background: yellow;
+    animation-name: top-right-to-bottom;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(3) {
+    position: fixed;
+    height: 6px;
+    width:1px;
+    right:0px;
+    bottom:0px;
+    background: yellow;
+    animation-name: bottom-right-to-left;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(4) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background: yellow;
+    animation-name: bottom-left-to-top;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(5) {
+    position: fixed;
+    height: 6px;
+    width: 1px;
+    top:0px;
+    left:0px;
+    background-color:orangered;
+    animation-name: top-left-to-right;
+    animation-delay: .8s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+
+
+div.lights:nth-child(6) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    right:0px;
+    top:0px;
+    background: orangered;
+    animation-name: top-right-to-bottom;
+    animation-delay: .8s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(7) {
+    position: fixed;
+    height: 6px;
+    width:1px;
+    right:0px;
+    bottom:0px;
+    background: orangered;
+    animation-name: bottom-right-to-left;
+    animation-delay: .8s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(8) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background: orangered;
+    animation-name: bottom-left-to-top;
+    animation-delay:  .8s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(9) {
+    position: fixed;
+    height: 6px;
+    width: 1px;
+    top:0px;
+    left:0px;
+    background-color: orange;
+    animation-name: top-left-to-right;
+    animation-delay: 1.6s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+
+
+div.lights:nth-child(10) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    right:0px;
+    top:0px;
+    background: orange;
+    animation-name: top-right-to-bottom;
+    animation-delay: 1.6s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+}
+
+div.lights:nth-child(11) {
+    position: fixed;
+    height: 6px;
+    width:1px;
+    right:0px;
+    bottom:0px;
+    background: orange;
+    animation-name: bottom-right-to-left;
+    animation-delay: 1.6s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(12) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background: orange;
+    animation-name: bottom-left-to-top;
+    animation-delay: 1.6s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(13) {
+    position: fixed;
+    height: 6px;
+    width: 1px;
+    top:0px;
+    left:0px;
+    background-color: tomato;
+    animation-name: top-left-to-right;
+    animation-delay: 2.4s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+
+
+div.lights:nth-child(14) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    right:0px;
+    top:0px;
+    background: tomato;
+    animation-name: top-right-to-bottom;
+    animation-delay: 2.4s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ 
+}
+
+div.lights:nth-child(15) {
+    position: fixed;
+    height: 6px;
+    width:1px;
+    right:0px;
+    bottom:0px;
+    background: tomato;
+    animation-name: bottom-right-to-left;
+    animation-delay: 2.4s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.lights:nth-child(16) {
+    position: fixed;
+    width: 6px;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background: tomato;
+    animation-name: bottom-left-to-top;
+    animation-delay: 2.4s;
+    animation-duration: 3.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes top-left-to-right {
+    0% {left:0px; top:0px;}
+    25% {left:0px; width: 33%;}
+    50% {left:33%; width: 33%;}
+    75% {left: 66%; width: 33%;}
+    100% {left: 100%}
+
+}
+
+@keyframes top-right-to-bottom {
+    0% {right:0px; top: 0px;}
+    25% {top: 0px; height: 33%;}
+    50% {top: 33%; height: 33%;}
+    75% {top:66%; height: 33%;}
+    100% {top:100%;}
+
+}
+
+@keyframes bottom-right-to-left {
+    0% {right:0px; bottom:0px;}
+    25% {right:0px; width: 33%;}
+    50% {right:33%; width: 33%;}
+    75% {right: 66%; width: 33%;}
+    100% {right: 100%}
+}
+
+@keyframes bottom-left-to-top {
+    0% {left: 0px; bottom: 0px;}
+    25% {bottom: 0px; height: 33%;}
+    50% {bottom:33%; height: 33%;}
+    75% {bottom:66%; height: 33%;}
+    100% {bottom: 100%;}
+}
+
+.spinner-contain {
+    position: relative;
+    height: 105px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(255,69,0, .65), rgb(255,255,0, .7));
+
+}
+    
+#left-spinner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-fill-mode: forwards;
+    animation-name: logo-spin;
+    animation-duration: 1.2s;
+    opacity: 100%;
+}
+
+#right-spinner {
+    margin-top: 10px;
+    margin-bottom: 10 px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    animation-fill-mode: forwards;
+    animation-name: right-logo-spin;
+    animation-duration: 1.2s;
+    opacity: 100%;
+}
+
+@keyframes logo-spin {
+    from {top: 0px; transform:rotateY(0deg);}
+    to {left: 50%; translate: -50% 0; transform:rotateY(720deg)}
+}
+
+@keyframes right-logo-spin {
+    from {top: 0px; transform:rotateY(0deg);}
+    to {right: 50%; translate: 50% 0; transform:rotateY(720deg)}
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    background-color: #333;
+}
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    gap: 10px;  
+}
+
+footer {
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(36, 29, 29);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.746);
+    z-index: 1;
+}
+.dropdown-content a {
+    /* color: black; */
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: red;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+#main-promotion {
+    background-image: url("Pictures/beauty-salon.webp");
+    background-repeat: repeat;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-promotion-article {
+    flex: 1;
+    height: 20rem;
+    border-radius: 6px;
+    min-width: 29%;
+    max-width: 34%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    margin-top: -1rem;
+}
+
+#initial-consultation {
+    display: block;
+    height: 2.5rem;
+    border-radius: 6px;
+    margin: auto;
+    background-color: black;
+    color:white;
+}
+
+#initial-consultation:hover {
+    background-color: red;
+    color : white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#secondary-section  {
+    justify-content: space-around;
+}
+
+.secondary-promos-blog {
+    margin-top: 2rem;
+    flex: 1;
+    border: 2px solid orangered;
+    border-radius: .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.1rem;
+    min-width:20%;
+    max-width: 30%;
+    flex-grow: 1;
+    padding: .3rem;
+}
+
+.centered-image {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.non-nav-links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.1rem;
+    position:relative;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    left:50%; 
+    transform: translateX(-50%)
+  }
+
+.non-nav-links:hover {
+    background-color:red;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
